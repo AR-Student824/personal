@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Space+Mono:wght@700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+  background-color: #191414;
 }
 
 a {
@@ -13,4 +16,14 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+code {
+  font-family: 'Space Mono', sans-serif
 }
