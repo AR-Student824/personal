@@ -2,16 +2,19 @@
     {
         "title": "Hangle",
         "desc": "An open source platform for developers to talk, and share their projects on.",
-        "href": "//hangle.me"
+        "href": "//hangle.me",
+        "id": 1
     },
     {
         "title": "divvyr",
         "desc": "A social media application where you can discover what the world is up to.",
-        "href": "//hangle.me"
+        "href": "//hangle.me",
+        "id": 2
     },
     {
         "title": "FShare",
         "desc": "A simple file sharing application for sharing your files with friends and colleauges.",
-        "href": "//fshare.vercel.app"
+        "href": "//fshare.vercel.app",
+        "id": 3
     }
 ]

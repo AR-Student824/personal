@@ -23,7 +23,7 @@ export default function Home() {
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
         <div className={styles.grid}>
         {projects.map((project, index) => (
-          <a href={project.href} className={styles.card}>
+          <a href={project.href} key={project.id} className={styles.card}>
             <h2>{project.title} &rarr;</h2>
             <p>{project.desc}</p>
           </a>
