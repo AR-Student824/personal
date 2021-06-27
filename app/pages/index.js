@@ -8,12 +8,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>AR</title>
-        <meta name="description" content="Oh hi there, I'm AR!" />
+        <meta name="description" content="Oh hi there, I&apos;m AR!" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I'm <span className={styles.blue}>AR 👋</span>.
+          Hi, I&apos;m <span className={styles.blue}>AR 👋</span>.
         </h1>
 
         <p className={styles.description}>
