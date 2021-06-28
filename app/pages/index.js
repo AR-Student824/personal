@@ -45,7 +45,7 @@ export default function Home() {
           <center>
           <a className={styles.card} href="https://discord.com/users/314903667574702080">View on Discord</a>
           </center>
-          <br /><br /><br />
+          <br /><br />
         </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
