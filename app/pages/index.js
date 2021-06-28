@@ -54,7 +54,8 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="//twitter.com/arcodez" className={styles.card}>
             <h2>Twitter &rarr;</h2>
-            <p>@arcodez</p>
+            <p>@arcodez<br />
+            <i>I no longer post on Twitter due to the toxicity</i></p>
           </a>
           <a href="//discord.com/invite/new" className={styles.card}>
             <h2>Discord &rarr;</h2>
