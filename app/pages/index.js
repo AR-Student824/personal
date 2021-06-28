@@ -39,7 +39,7 @@ export default function Home() {
           I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//blobbyapps.vercel.app">Blobby</a> community &amp; development.
         </p>
         <div className={styles.discordcardcontainer}>
-          <iframe width="460px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
+          <iframe width="440px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
         </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
