@@ -41,8 +41,10 @@ export default function Home() {
         </p>
         <div className={styles.discordcardcontainer}>
           <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
-          <br />
+          <br /><br />
+          <center>
           <a className={styles.card} href="https://discord.com/users/314903667574702080">View on Discord</a>
+          </center>
         </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
