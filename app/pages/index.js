@@ -7,7 +7,7 @@ import {useEffect} from "react"
 export default function Home() {
 
   useEffect(() => {
-    fetch('https://api.lanyard.rest/v1/users/314903667574702080?bg=181414').then(response => response.json())
+    fetch('https://api.lanyard.rest/v1/users/314903667574702080?bg=ffffff00').then(response => response.json())
     .then(data => {
       data.data.activities.forEach(activity => {
         if (activity.id == "custom") {
