@@ -71,8 +71,6 @@ export default function Home() {
               Status: <span id="status">N/A</span>
               <br />
               Custom status: <span id="customStatus">N/A</span>
-              <br />
-              Listening to: <span id="spotifyContent">N/A</span>
             </p>
           </a>
           <a href="//www.guilded.gg/blob" className={styles.card}>
