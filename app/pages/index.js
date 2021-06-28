@@ -83,6 +83,11 @@ export default function Home() {
             Email active: Yes
             </p>
           </a>
+          <a href="https://github.com/AR-Student824" className={styles.card}>
+            <h2>Github &rarr;</h2>
+            <p>Github: AR-Student824<br />Check out my Github to see what I&apos;m up to.
+            </p>
+          </a>
         </div>
         </div>
       </main>
