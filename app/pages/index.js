@@ -19,7 +19,7 @@ export default function Home() {
         }
       })
 
-      document.getElementById('userData').innerHTML = `${data.data.discord_user.username}${data.data.discord_user.discriminator}`
+      document.getElementById('userData').innerHTML = `${data.data.discord_user.username}#${data.data.discord_user.discriminator}`
       document.getElementById('status').innerHTML = `${data.data.discord_status.replace('online', 'Active').replace('dnd', 'Do Not Disturb').replace('idle', 'Idle').replace('offline', 'Offline')}`
     })
   }, [])
@@ -71,11 +71,13 @@ export default function Home() {
           </a>
           <a href="//www.guilded.gg/blob" className={styles.card}>
             <h2>Guilded &rarr;</h2>
-            <p>Blobby (www.guilded.gg/blob)</p>
+            <p>Server: Blobby (www.guilded.gg/blob)</p>
           </a>
           <a href="mailto:arcodez999@gmail.com" className={styles.card}>
             <h2>Email &rarr;</h2>
-            <p>arcodez999 at gmail dot com</p>
+            <p>arcodez999 at gmail dot com<br />
+            Email active: Yes
+            </p>
           </a>
         </div>
         </div>
