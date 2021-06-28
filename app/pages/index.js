@@ -2,8 +2,27 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import projects from './projects.json'
+import {useEffect} from "react"
 
 export default function Home() {
+
+  useEffect(() => {
+    fetch('https://api.lanyard.rest/v1/users/314903667574702080').then(response => response.json())
+    .then(data => {
+      if (data.data.spotify) {
+        document.getElementById('spotifyContent').innerHTML = `${data.data.spotify.song} by ${data.data.spotify.artist}`
+      }
+
+      data.data.activities.forEach(activity => {
+        if (activity.id == "custom") {
+          document.getElementById('customStatus').innerText = activity.state
+        }
+      })
+
+      document.getElementById('userData').innerHTML = `${data.data.discord_user.username}${data.data.discord_user.discriminator}`
+      document.getElementById('status').innerHTML = `${data.data.discord_status.replace('online', 'Active').replace('dnd', 'Do Not Disturb').replace('idle', 'Idle').replace('offline', 'Offline')}`
+    })
+  }, [])
   return (
     <div className={styles.container}>
       <Head>
@@ -39,7 +58,16 @@ export default function Home() {
           </a>
           <a href="//discord.com/invite/new" className={styles.card}>
             <h2>Discord &rarr;</h2>
-            <p>Blobby (discord.gg/new)</p>
+            <p>Server: Blobby (discord.gg/new)
+              <br />
+              User: <span id="userData">N/A</span>
+              <br />
+              Status: <span id="status">N/A</span>
+              <br />
+              Custom status: <span id="customStatus">N/A</span>
+              <br />
+              Listening to: <span id="spotifyContent">N/A</span>
+            </p>
           </a>
           <a href="//www.guilded.gg/blob" className={styles.card}>
             <h2>Guilded &rarr;</h2>
