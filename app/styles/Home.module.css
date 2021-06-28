@@ -133,3 +133,8 @@
     display: none;
   }
 }
+
+.discordcard {
+  border: none;
+  outline: none;
+}
