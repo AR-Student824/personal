@@ -9,10 +9,6 @@ export default function Home() {
   useEffect(() => {
     fetch('https://api.lanyard.rest/v1/users/314903667574702080').then(response => response.json())
     .then(data => {
-      if (data.data.spotify) {
-        document.getElementById('spotifyContent').innerHTML = `${data.data.spotify.song} by ${data.data.spotify.artist}`
-      }
-
       data.data.activities.forEach(activity => {
         if (activity.id == "custom") {
           document.getElementById('customStatus').innerText = activity.state
