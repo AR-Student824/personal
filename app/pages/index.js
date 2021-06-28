@@ -18,7 +18,9 @@ export default function Home() {
           document.getElementById('customStatus').innerText = activity.state
         }
       })
-
+      
+      document.getElementById('card').onclick = 'function i(){window.location.href="https://discord.com/users/314903667574702080"}();'
+      document.getElementById('card').style.cursor = "pointer"
       document.getElementById('userData').innerHTML = `${data.data.discord_user.username}#${data.data.discord_user.discriminator}`
       document.getElementById('status').innerHTML = `${data.data.discord_status.replace('online', 'Active').replace('dnd', 'Do Not Disturb').replace('idle', 'Idle').replace('offline', 'Offline')}`
     })
@@ -39,7 +41,7 @@ export default function Home() {
           I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//blobbyapps.vercel.app">Blobby</a> community &amp; development.
         </p>
         <a href="https://discord.com/user/314903667574702080" className={styles.discordcardcontainer}>
-          <iframe width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
+          <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
         </a>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
