@@ -35,9 +35,8 @@ export default function Home() {
         <p className={styles.description}>
           I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//blobbyapps.vercel.app">Blobby</a> community &amp; development.
         </p>
-        <div className={styles.grid}>
         <div className={styles.discordcardcontainer}>
-          <iframe id="card" width="490px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
+          <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
           <br /><br /><br />
           <center>
           <a className={styles.card} href="https://discord.com/users/314903667574702080">View on Discord &rarr;</a>
@@ -45,13 +44,12 @@ export default function Home() {
           <br /><br />
         </div>
         <div className={styles.discordcardcontainer}>
-          <iframe width="420px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
+          <iframe width="450px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
           <br /><br /><br />
           <center>
           <a className={styles.card} href="https://github.com/AR-Student824">View on Github &rarr;</a>
           </center>
           <br /><br />
-        </div>
         </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
