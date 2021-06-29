@@ -44,7 +44,7 @@ export default function Home() {
           <br /><br />
         </div>
         <div className={styles.discordcardcontainer}>
-          <iframe width="460px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
+          <iframe width="480px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
           <br /><br /><br />
           <center>
           <a className={styles.card} href="https://github.com/AR-Student824">View on Github &rarr;</a>
