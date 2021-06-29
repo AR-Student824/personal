@@ -43,6 +43,14 @@ export default function Home() {
           </center>
           <br /><br />
         </div>
+        <div className={styles.discordcardcontainer}>
+          <iframe width="410px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
+          <br /><br /><br />
+          <center>
+          <a className={styles.card} href="https://github.com/AR-Student824">View on Github &rarr;</a>
+          </center>
+          <br /><br />
+        </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Best active projects</h3>
         <div className={styles.grid}>
