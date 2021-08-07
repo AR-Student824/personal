@@ -70,9 +70,9 @@ export default function Home() {
             <p>@arcodez<br />
             <i>I no longer post on Twitter due to the toxicity</i></p>
           </a>
-          <a href="//discord.com/invite/new" className={styles.card}>
+          <a href="//discord.com/invite/windows" className={styles.card}>
             <h2>Discord &rarr;</h2>
-            <p>Server: Blobby (discord.gg/new)
+            <p>Server: Blobby (discord.gg/windows)
               <br />
               User: <span id="userData">N/A</span>
               <br />

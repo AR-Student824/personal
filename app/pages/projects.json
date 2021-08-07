@@ -10,5 +10,41 @@
         "desc": "A suite of simple yet useful APIs to make your work easier, no API key required",
         "href": "/to/tua",
         "id": 1
+    }, 
+    {
+        "title": "weather69420",
+        "desc": "A simple yet beautiful weather website, for quick viewing.",
+        "href": "/to/weather",
+        "id": 1
+    },
+    {
+        "title": "MetaMaker",
+        "desc": "A useful tool for generating meta tags for your websites, React compatiable as well!",
+        "href": "/to/meta",
+        "id": 1
+    },
+    {
+        "title": "encodemaster69420",
+        "desc": "A simple yet useful tool to encode your text in multiple ways at once.",
+        "href": "/to/encode",
+        "id": 1
+    },
+    {
+        "title": "css-preview",
+        "desc": "Preview your CSS live for testing purposes, and test to see if it works with multiple components.",
+        "href": "/to/css",
+        "id": 1
+    },
+    {
+        "title": "weather69420-terminal",
+        "desc": "A beautiful terminal version of weather69420 for viewing the weather while coding!",
+        "href": "/to/weathterm",
+        "id": 1
+    },
+    {
+        "title": "insultmaker69420",
+        "desc": "A website that was originally made as a joke that generates decent insults, and URLs to share the insults.",
+        "href": "/to/insults",
+        "id": 1
     }
 ]
