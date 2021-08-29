@@ -71,7 +71,7 @@ export default function Home() {
           <a href="//twitter.com/arcodez" className={styles.card}>
             <h2>Twitter &rarr;</h2>
             <p>@arcodez<br />
-            <i>I no longer post on Twitter due to the toxicity</i></p>
+            <i>A good but not the best way to contact me.</i></p>
           </a>
           <a href="//discord.com/invite/windows" className={styles.card}>
             <h2>Discord &rarr;</h2>
@@ -90,13 +90,14 @@ export default function Home() {
           </a>
           <a href="mailto:arcodez999@gmail.com" className={styles.card}>
             <h2>Email &rarr;</h2>
-            <p>arcodez999 at gmail dot com<br />
+            <i>I changed my email from Gmail to Protonmail recently.</i>
+            <p>arcodez at protonmail dot net<br />
             Email active: Yes
             </p>
           </a>
           <a href="https://github.com/AR-Student824" className={styles.card}>
             <h2>Github &rarr;</h2>
-            <p>Github: AR-Student824<br />Check out my Github to see what I&apos;m up to.
+            <p>Github: AR-Student824<br />Check out my Github to see what I&apos;m up to, I&apos;m most active on there.
             </p>
           </a>
         </div>
