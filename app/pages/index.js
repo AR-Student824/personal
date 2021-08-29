@@ -33,7 +33,10 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//blobbyapps.vercel.app">Blobby</a> community &amp; development.
+          I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//www.blobby.me">Blobby</a> community &amp; development.
+        </p>
+        <p className={styles.description}>
+          You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
         </p>
         <div className={styles.discordcardcontainer}>
           <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
