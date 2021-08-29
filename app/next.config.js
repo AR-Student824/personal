@@ -41,6 +41,31 @@ module.exports = {
         source: '/to/insults',
         destination: 'https://insults.ar-dev.cf',
         permanent: true
+      },
+      {
+        source: '/to/bbeo',
+        destination: 'https://blobeo.blobby.me',
+        permanent: true
+      },
+      {
+        source: '/to/bc',
+        destination: 'https://www.blobchat.ml',
+        permanent: true
+      },
+      {
+        source: '/to/pfk',
+        destination: 'https://profanitykiller.ml',
+        permanent: true
+      },
+      {
+        source: '/to/fr',
+        destination: 'https://www.formrocket.me',
+        permanent: true
+      },
+      {
+        source: '/to/fr_gui',
+        destination: 'https://gui.formrocket.me',
+        permanent: true
       }
     ]
   }
