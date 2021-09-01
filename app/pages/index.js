@@ -13,7 +13,7 @@ export default function Home() {
       data.data.activities.forEach(activity => {
         if (activity.id == "custom") {
           document.getElementById('customStatus').innerText = activity.state
-          document.getElementById('descstatus').innerText = activity.state
+          document.getElementById('desc').innerHTML = document.getElementById('desc').innerHTML + activity.state
         }
       })
       
@@ -34,13 +34,10 @@ export default function Home() {
           Hi, I&apos;m <span className={styles.blue}>Asad 👋</span>.
         </h1>
 
-        <p className={styles.description}>
+        <p className={styles.description} id="desc">
           I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//www.blobby.me">Blobby</a> community &amp; development.
           <br />
           You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
-        </p>
-        <p className={styles.description} id="descstatus">
-          
         </p>
         <center>
         <br /><br />
