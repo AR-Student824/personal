@@ -13,7 +13,7 @@ export default function Home() {
       data.data.activities.forEach(activity => {
         if (activity.id == "custom") {
           document.getElementById('customStatus').innerText = activity.state
-          document.getElementById('desc').innerHTML = document.getElementById('desc').innerHTML + activity.state
+          document.getElementById('desc').innerHTML = document.getElementById('desc').innerHTML + '<br /><br />'  +activity.state
         }
       })
       
