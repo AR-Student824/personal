@@ -54,6 +54,7 @@ export default function Home() {
           <iframe width="495px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
           <br /><br /><br />
           <center>
+          <p>These stats are currently inaccurate, click the button below</p>
           <a className={styles.card} href="https://github.com/AR-Student824">View on Github &rarr;</a>
           </center>
           <br /><br />
