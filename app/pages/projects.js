@@ -18,7 +18,7 @@ export default function Home() {
           Some of my <span className={styles.blue}>projects</span>.
         </h1>
         <center>
-        <Link href="./"><div className={styles.card}>Home &rarr;</div></Link>
+        <Link href="./"><a className={styles.card}>Home &rarr;</a></Link>
           </center>
         <div className={styles.bread}>
         <div className={styles.grid}>
