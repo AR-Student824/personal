@@ -63,17 +63,6 @@ export default function Home() {
           <br /><br />
         </div>
         <div className={styles.bread}>
-<h3 style={{fontSize: "40px"}}>Best active projects</h3>
-        <div className={styles.grid}>
-        {projects.map((project, index) => (
-          <a href={project.href} key={project.id} className={styles.card}>
-            <h2>{project.title} &rarr;</h2>
-            <p>{project.desc}</p>
-          </a>
-        ))}
-        </div>
-        </div>
-        <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Socials</h3>
         <div className={styles.grid}>
           <a href="//twitter.com/arcodez" className={styles.card}>
