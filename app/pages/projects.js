@@ -20,7 +20,7 @@ export default function Home() {
         <center>
         <br /><br /><br />
         <Link href="./"><a className={styles.card}>Home &rarr;</a></Link>
-        <br /><br />
+        <br /><br /><br />
           </center>
         <div className={styles.bread}>
         <div className={styles.grid}>
