@@ -64,7 +64,7 @@ export default function Home() {
         </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Projects</h3>
-Moved <Link href="/projects"><a className={styles.blue}>here</a></Link>.
+<p>Moved <Link href="/projects"><a className={styles.blue}>here</a></Link> due to the list only increasing.</p>
 </div>
         <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Find me on...</h3>
