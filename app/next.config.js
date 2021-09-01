@@ -66,6 +66,11 @@ module.exports = {
         source: '/to/fr_gui',
         destination: 'https://gui.formrocket.me',
         permanent: true
+      },
+      {
+        source: '/to/frd',
+        destination: 'https://ar-student824.github.io/fr-demo',
+        permanent: true
       }
     ]
   }

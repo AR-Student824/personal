@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import projects from './projects.json'
 import {useEffect} from "react"
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -23,13 +24,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AR</title>
+        <title>home // AR</title>
         <meta name="description" content="Oh hi there, I&apos;m AR!" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I&apos;m <span className={styles.blue}>AR 👋</span>.
+          Hi, I&apos;m <span className={styles.blue}>Asad 👋</span>.
         </h1>
 
         <p className={styles.description}>
@@ -38,6 +39,9 @@ export default function Home() {
         <p className={styles.description}>
           You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
         </p>
+        <center>
+          <Link className={styles.card} href="./">Back &rarr;</Link>
+          </center>
         <div className={styles.discordcardcontainer}>
           <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
           <br /><br /><br />
