@@ -40,7 +40,7 @@ export default function Home() {
           You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
         </p>
         <center>
-          <Link className={styles.card} href="./">Back &rarr;</Link>
+          <Link href="./"><div className={styles.card}>Projects &rarr;</div></Link>
           </center>
         <div className={styles.discordcardcontainer}>
           <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
