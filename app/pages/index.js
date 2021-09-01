@@ -40,7 +40,9 @@ export default function Home() {
           You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
         </p>
         <center>
+        <br /><br /><br />
           <Link href="/projects"><a className={styles.card}>Projects &rarr;</a></Link>
+          <br /><br />
           </center>
         <div className={styles.discordcardcontainer}>
           <iframe id="card" width="410px" height="218px" className={styles.discordcard} src="https://lanyard-profile-readme.vercel.app/api/314903667574702080" />
@@ -52,9 +54,10 @@ export default function Home() {
         </div>
         <div className={styles.discordcardcontainer}>
           <iframe width="495px" height="218px" className={styles.discordcard} src="https://github-readme-stats.vercel.app/api?username=AR-Student824&theme=radical&show_icons=true" />
+          <center><p>These stats are currently inaccurate, click the button below</p></center>
           <br /><br /><br />
           <center>
-          <p>These stats are currently inaccurate, click the button below</p>
+          
           <a className={styles.card} href="https://github.com/AR-Student824">View on Github &rarr;</a>
           </center>
           <br /><br />
