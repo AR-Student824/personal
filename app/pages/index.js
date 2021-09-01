@@ -13,6 +13,7 @@ export default function Home() {
       data.data.activities.forEach(activity => {
         if (activity.id == "custom") {
           document.getElementById('customStatus').innerText = activity.state
+          document.getElementById('descstatus').innerText = activity.state
         }
       })
       
@@ -35,9 +36,11 @@ export default function Home() {
 
         <p className={styles.description}>
           I&apos;m a full stack developer, and the founder of the <a className={styles.blue} href="//www.blobby.me">Blobby</a> community &amp; development.
-        </p>
-        <p className={styles.description}>
+          <br />
           You can find my new blog <a className={styles.blue} href="//blog.ar-dev.cf">here</a>. I sometimes write there.
+        </p>
+        <p className={styles.description} id="descstatus">
+          
         </p>
         <center>
         <br /><br />
