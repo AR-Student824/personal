@@ -63,7 +63,7 @@ export default function Home() {
           <br /><br />
         </div>
         <div className={styles.bread}>
-<h3 style={{fontSize: "40px"}}>Socials</h3>
+<h3 style={{fontSize: "40px"}}>Find me on...</h3>
         <div className={styles.grid}>
           <a href="//twitter.com/arcodez" className={styles.card}>
             <h2>Twitter &rarr;</h2>
