@@ -63,6 +63,10 @@ export default function Home() {
           <br /><br />
         </div>
         <div className={styles.bread}>
+<h3 style={{fontSize: "40px"}}>Projects</h3>
+Moved <Link href="/projects"><a className={styles.blue}>here</a></Link>.
+</div>
+        <div className={styles.bread}>
 <h3 style={{fontSize: "40px"}}>Find me on...</h3>
         <div className={styles.grid}>
           <a href="//twitter.com/arcodez" className={styles.card}>
